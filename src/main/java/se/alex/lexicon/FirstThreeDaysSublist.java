@@ -3,7 +3,7 @@ package se.alex.lexicon;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExerciseFour {
+public class FirstThreeDaysSublist {
     public static void main(String[] args) {
         // Create a new ArrayList to store the days of the week
         List<String> daysOfWeek = new ArrayList<>();
@@ -20,7 +20,7 @@ public class ExerciseFour {
         // Create a sublist of the first three elements
         List<String> firstThreeDays = daysOfWeek.subList(0, 3);
 
-        // Print out the sublist
+
         System.out.println(firstThreeDays);
     }
 }
